@@ -1,0 +1,26 @@
+.breath 
+{
+    animation-name: breathing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes breathing 
+{
+    0% {background-color:#00d5ff; left:0px; top:0px}
+    20% {background-color:#00aaff; left:0px; top:200px}
+    33% {background-color:#007bff; left:200px; top:200px}
+    70% {background-color:#487df1c5; left:0px; top:200px}
+    100% {background-color:#4057bbe7; left:0px; top:0px}
+} 
+
+.back {
+    background-color: rgb(103, 185, 212);
+}
+
+.bound-box {
+    border: 1px solid black;
+    padding: 30px;
+    background-color: rgb(206, 228, 235);
+    background-clip: border-box;
+}

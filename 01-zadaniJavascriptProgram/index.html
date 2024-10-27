@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sčítání pro dospělé</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h4>Ověření věku pro vpuštění</h4>
+    <br>
+    <input type="number" id="ageIn">
+    <button onclick="ageControling();">Ověřit</button>
+    <p id="message"></p>
+    <br>
+    <div  hidden id="calcul" class="bound-box">
+        <input type="number" class="back" id="leftSide">
+        <input type="number" class="back" id="rightSide">
+        <button class="breath" onclick="suma(document.getElementById('leftSide').value, document.getElementById('rightSide').value, document.getElementById('result'))">=</button><br>
+        <br>
+        <text>Zde je Váš výsledek</text>
+        <input class="back" id="result">
+
+    </div>
+</body>
+</html>
